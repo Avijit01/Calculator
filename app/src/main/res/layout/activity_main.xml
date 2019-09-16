@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Input1Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:inputType="numberDecimal"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Number 1"
+        android:backgroundTint="#252525"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/Input2Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:inputType="numberDecimal"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:backgroundTint="#222222"
+        android:hint="Enter Number 2"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/ResultId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="10dp"
+        android:textSize="28sp"
+        android:backgroundTint="#222222"
+        android:hint="Result"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        >
+        <Button
+            android:id="@+id/AddId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/SubtractId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Subtract"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/multiplyId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Multiply"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/DivideId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Divide"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/ResetId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
